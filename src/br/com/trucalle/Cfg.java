@@ -31,7 +31,7 @@ public final class Cfg {
     static final int CALLBACK_DAYS = 90;
     static final String BLOCK_DEFAULT = "0303";         // telemarketing (Anatel) no modo lista
     static final String SMS_DEFAULT =
-            "Estou ocupado agora, por favor me chame pelo WhatsApp: https://wa.me/5512981301717";
+            "Estou ocupado agora, por favor me chame pelo WhatsApp neste mesmo numero.";
 
     private static final Pattern WINDOW =
             Pattern.compile("(\\d{1,2}):(\\d{2})\\s*-\\s*(\\d{1,2}):(\\d{2})\\s*([1-7]*)");
